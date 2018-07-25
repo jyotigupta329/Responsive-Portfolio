@@ -221,9 +221,16 @@ input[type=submit] {
        body{
          width: 100%;
        }
+
+       #masthead {
+        width: 970px;
+      }
       header{
         width: 100%;
        }
+       .main-section{
+        width: 100%;
+      }
 
       }
   
@@ -237,6 +244,9 @@ input[type=submit] {
         header{
           width: 100%;
          }
+         .main-section{
+          width: 98%;
+        }
       }
   
       @media screen and (min-width: 640px) {
@@ -250,5 +260,9 @@ input[type=submit] {
 
         nav a {
           margin-right: 18px;
+        }
+
+        .main-section{
+          width: 97%;
         }
       }
